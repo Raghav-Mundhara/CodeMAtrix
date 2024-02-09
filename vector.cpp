@@ -7,7 +7,7 @@ int main()
     // Vector initialization
     vector<int> vec1; // Empty vector
 
-    vector<int> vec2(5); // Vector with 5 elements, initialized to 0
+    vector<int> vec2(5,0); // Vector with 5 elements, initialized to 0
 
     vector<int> vec3 = {1, 2, 3, 4, 5}; // Vector initialized with initializer list
 
